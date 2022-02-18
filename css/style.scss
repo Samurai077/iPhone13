@@ -526,3 +526,13 @@ iframe {
         }
     }
 }
+@media (max-width: 440px) {
+    .footer__flex{
+        display: flex;
+        flex-direction: column;
+        padding-top: 25px;
+    }
+    .footer__avtor{
+        margin-top: 10px;
+    }
+}
